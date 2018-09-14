@@ -1,0 +1,41 @@
+
+.navmenu{
+    height: 100px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: rgb(61, 60, 60);
+    color: white;
+    text-align: center;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+@media screen and (min-width:1000px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+}
+.menu1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right1 {
+    margin-top: 3rem;
+}
+// Your own styles
+
